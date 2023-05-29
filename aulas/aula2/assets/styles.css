@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+:root{
+    --ps:300px;
+}
+
+.banner_back_color{
+    background-color: blueviolet;
+    
+}
+
+.banner_intro{
+    font-size: 22px;
+    font-weight: 700;
+    box-sizing: border-box;
+    
+}
+
+.banner_text{
+    background-color: brown;
+    color: aquamarine;
+
+    width: 50%;
+    height: 50%;
+
+    padding-left: var(--ps);
+    padding-bottom: var(--ps);
+
+    border: solid;
+    border-width: 2px;
+    border-color: deeppink;
+
+    text-decoration: underline;
+}

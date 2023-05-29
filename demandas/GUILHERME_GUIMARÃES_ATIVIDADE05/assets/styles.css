@@ -1,0 +1,128 @@
+:root{
+    --font-size-topic-txt: 1.6rem;
+    --font-size-topic-title: 2.2rem;
+    
+    --font-weight-topic-txt-500: 500;
+
+    --font-weight-topic-title-500: 500;
+    --font-weight-topic-title-700: 700;
+}
+
+/*  */
+
+.home_banner{
+    margin-top: calc(var(--nav-height) + 90px);
+    width: 100%;
+}
+
+.home_banner_border_shad{
+    border: 1px solid var(--black-100);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*  */
+
+.home_topic_intro{
+    margin-top: 24px;
+}
+
+.home_topic_intro_title{
+    font-weight: var(--font-weight-topic-title-500);
+    font-size: var(--font-size-topic-title);
+    margin-bottom: 24px;
+}
+
+.home_topic_intro_txt{
+    font-size: var(--font-size-topic-txt);
+    font-weight: var(--font-weight-topic-txt-500);
+
+    margin-bottom: 36px;
+}
+
+/*  */
+
+.home_topic_dev_progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_topic_dev_progress_title{
+    color: var(--red-200);
+    font-size: var(--font-size-topic-title);
+    font-weight: var(--font-weight-topic-title-700);
+
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.home_topic_dev_progress_txt{
+    font-size: var(--font-size-topic-txt);
+    font-weight: var(--font-weight-topic-txt-500);
+
+    margin-bottom: 24px;
+}
+
+.home_topic_dev_progress_img{
+    padding-top: 66px;
+    padding-bottom: 90px;
+}
+
+/*  */
+
+.home_divi{
+    border: 1px solid var(--red-500);
+    width: 100%;
+
+    margin-top: 24px;
+}
+
+/*  */
+
+.home_update{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_update_div_start{
+    width: 50%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+.home_update_div_end{
+    width: 50%;
+    margin-left: 50%;
+
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end; 
+
+    margin-bottom: var(--footer-height);
+}
+
+.home_update_title{
+    font-size: 4.4rem;
+    font-weight: 500;
+    color: var(--red-200);
+    text-decoration: underline;
+
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+.home_update_txt{
+    font-size: var(--font-size-topic-txt);
+    margin-bottom: 24px;
+
+}
+
+.home_update_date{
+    font-size: var(--font-size-topic-txt);
+    margin-bottom: 24px;
+
+    font-weight: 600;
+}
+

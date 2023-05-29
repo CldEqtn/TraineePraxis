@@ -1,0 +1,67 @@
+
+
+body{
+    margin: 0px;
+}
+
+.header{
+    color: black;
+    background-image: url(./img/mekakucity.jpg);
+    background-size: 100%, 100%;
+    
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header_title{
+    font-weight: 900;
+}
+
+
+.nav_text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 900;
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.section{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.sinopse_txt{
+    padding-right: 10%;
+}
+
+/* .section_title{
+    padding-left: 2%;
+} */
+
+.armengue_table{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 100px;
+    
+}
+
+/* .table_txt{
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+
+
+/* sim, eu sei que era só que aprendemos, mas não queria dar spoiler >:*  */
+.spoiler{
+    background-color: black;
+    color: black;
+}
+
+.spoiler:hover{
+    background-color: white;
+}
